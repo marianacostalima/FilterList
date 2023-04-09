@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro Lista</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="py-5">
+
+    <div class="container px -4 formBody">
+
+        <div class="text-center" id="img-topo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV_93iCXuUhD6NcuhxbSxO6KxWBR4ukrkI1A&usqp=CAU" class = "img-fluid mt-2 mb-3" alt="IFPR" width="350px">
+        </div>
+
+        <div id = "idtext" class = "input-group-text mb-3">
+            <span id = "idtextext" class = "input-group-text"> </span>
+            <input class= "form-control" type="text" id="searchField" placeholder="Pesquise" autofocus>
+            <div>
+                <ul id="list"></ul>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button id="buttonadicionar" type="button" class="btn btn-outline-danger">Adicionar</button>
+            <button id="buttonfiltrar" type="button" class="btn btn-outline-danger">Filtrar</button>
+            <button id="buttonremove" type="button" class="btn btn-outline-danger">Remover</button>
+           <!-- <button id="buttonselecionar" type="button" class="btn btn-outline-danger">Selecionar</button> -->
+        </div>
+
+    </div>
+    <script src="lista.js"></script>
+</body>
+</html>
